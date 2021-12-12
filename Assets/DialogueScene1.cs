@@ -20,6 +20,8 @@ public class DialogueScene1 : MonoBehaviour {
 	public GameObject ArtHantu1;
 	public GameObject ArtHantu2;
 	public GameObject ArtHantu3;
+	public GameObject ArtHantu4;
+	public GameObject ArtHantu5;
 	public GameObject ArtBG1; //hitam
 	public GameObject ArtBG2; //asrama pagi
 	public GameObject ArtBG3; //kelas siang
@@ -53,6 +55,8 @@ public class DialogueScene1 : MonoBehaviour {
 		ArtHantu1.SetActive(false);
 		ArtHantu2.SetActive(false);
 		ArtHantu3.SetActive(false);
+		ArtHantu4.SetActive(false);
+		ArtHantu5.SetActive(false);
 		ArtBG1.SetActive(false);
 		ArtBG2.SetActive(false);
 		ArtBG3.SetActive(true);
@@ -431,6 +435,7 @@ public class DialogueScene1 : MonoBehaviour {
 		else if (primeInt == 673){
 			ArtHantu1.SetActive(false);
 			ArtHantu2.SetActive(true);
+			PlayerSpeech.gameObject.GetComponentInParent<shaker>().ChangeShake(1f);
 			PlayerName.text = "???";
 			PlayerSpeech.text = "Kkkhh... kkkhhhhe...";
 			Char1name.text = "";
@@ -447,6 +452,7 @@ public class DialogueScene1 : MonoBehaviour {
 		else if (primeInt == 675){
 			ArtHantu2.SetActive(false);
 			ArtHantu3.SetActive(true);
+			PlayerSpeech.gameObject.GetComponentInParent<shaker>().ChangeShake(2f);
 			PlayerName.text = "Kamu";
 			PlayerSpeech.text = "KYAAAAAAA!!!";
 			Char1name.text = "";
@@ -454,16 +460,19 @@ public class DialogueScene1 : MonoBehaviour {
 			}
 
 		else if (primeInt == 676){
+			ArtHantu3.SetActive(false);
+			ArtHantu4.SetActive(true);
 			PlayerName.text = "Kamu";
+			PlayerSpeech.gameObject.GetComponentInParent<shaker>().ChangeShake(3f);
 			PlayerSpeech.text = "AAAAAAAAAAAAAAAAAAAAAAAA!!!!!";
 			Char1name.text = "";
 			Char1speech.text = "";
 			}
 
 		else if (primeInt == 677){
-			ArtBG2.SetActive(true);
-			ArtBG5.SetActive(false);
-			ArtHantu3.SetActive(false);
+			ArtHantu4.SetActive(false);
+			ArtHantu5.SetActive(true);
+			PlayerSpeech.gameObject.GetComponentInParent<shaker>().ChangeShake(4f);
 			PlayerName.text = "Kamu";
 			PlayerSpeech.text = "AAAAAA!!!!!";
 			Char1name.text = "";
@@ -471,6 +480,9 @@ public class DialogueScene1 : MonoBehaviour {
 			}
 
 		else if (primeInt == 678){
+			ArtBG2.SetActive(true);
+			ArtHantu5.SetActive(false);
+			ArtBG5.SetActive(false);
 			PlayerName.text = "Kamu";
 			PlayerSpeech.text = ".........";
 			Char1name.text = "";
@@ -504,6 +516,7 @@ public class DialogueScene1 : MonoBehaviour {
 			}
 
 		else if (primeInt == 682){
+			PlayerSpeech.gameObject.GetComponentInParent<shaker>().ChangeShake(0f);
 			PlayerName.text = "Kamu";
 			PlayerSpeech.text = "........";
 			Char1name.text = "";
@@ -520,6 +533,13 @@ public class DialogueScene1 : MonoBehaviour {
 			Char1name.text = "";
 			Char1speech.text = "";
 			}
+
+		else if (primeInt == 684){
+			PlayerName.text = "";
+			PlayerSpeech.text = "";
+			Char1name.text = "";
+			Char1speech.text = "";
+				}
 
 		//scene 10
 		else if (primeInt == 400){
