@@ -50,6 +50,7 @@ public class DialogueScene0 : MonoBehaviour {
 		if (allowSpace == true){
 		if (Input.GetKeyDown("space")){
 			if (primeInt==501 || primeInt==402) Choice1cFunct();
+			else if (primeInt==33) SceneChange2a();
 			else talking();
 
 			// talking();
@@ -383,5 +384,6 @@ public class DialogueScene0 : MonoBehaviour {
 
 	public void SceneChange2a(){
 		SceneManager.LoadScene("scene1");
+		allowSpace=true;
 	}
 }

@@ -13,20 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
-    m_Keys:
-    - Assets/DialogueScene1.cs
-    - Assets/GameHandler.cs
-    - Assets/GameHandler.cs.meta
-    - Assets/Scenes/MainMenu.unity
-    - Assets/Scenes/MainMenu.unity.meta
-    - Assets/Scenes/scene0.unity
-    - Assets/Scenes/scene1.unity
-    - Assets/TrueAsset/cg/logo.png
-    - Assets/TrueAsset/cg/logo.png.meta
-    - Assets/shaker.cs
-    - Assets/shaker.cs.meta
-    - 
-    m_Values: 000000000000000000000000
+    m_Keys: []
+    m_Values: 
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 

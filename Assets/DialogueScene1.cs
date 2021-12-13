@@ -81,7 +81,7 @@ public class DialogueScene1 : MonoBehaviour {
 	void Update(){ // use spacebar as Next button
 		if (allowSpace == true){
 		if (Input.GetKeyDown("space")){
-			if (primeInt==888) Choice4Funct();
+			if (primeInt==502 || primeInt==602) Choice4Funct();
 		 	else talking();
 			}
 		}
@@ -539,7 +539,17 @@ public class DialogueScene1 : MonoBehaviour {
 			PlayerSpeech.text = "";
 			Char1name.text = "";
 			Char1speech.text = "";
-				}
+		}
+
+		else if (primeInt == 685){
+			PlayerName.text = "";
+			PlayerSpeech.text = "";
+			Char1name.text = "";
+			Char1speech.text = "";
+			NextScene2Button.SetActive(true);
+			nextButton.SetActive(false);
+			allowSpace=false;
+		}
 
 		//scene 10
 		else if (primeInt == 400){
@@ -647,6 +657,7 @@ public class DialogueScene1 : MonoBehaviour {
 		//scene 13
 		else if (primeInt == 889){
 			ArtChar4.SetActive(false);
+			ArtChar3.SetActive(false);
 			PlayerName.text = "";
 			PlayerSpeech.text = "";
 			Char1name.text = "";
@@ -766,6 +777,16 @@ public class DialogueScene1 : MonoBehaviour {
 			Char1name.text = "";
 			Char1speech.text = "";
 			}
+
+		else if (primeInt == 905){
+			PlayerName.text = "";
+			PlayerSpeech.text = "";
+			Char1name.text = "";
+			Char1speech.text = "";
+			NextScene1Button.SetActive(true);
+			nextButton.SetActive(false);
+			allowSpace=false;
+			}
 		}
 
 	//scene 7
@@ -870,10 +891,7 @@ public class DialogueScene1 : MonoBehaviour {
 		Choice4.SetActive(false);
 	}
 
-	public void SceneChange2a(){
-		// SceneManager.LoadScene("Scene2a");
-	}
-	public void SceneChange2b(){
-		// SceneManager.LoadScene("Scene2b");
+	public void SceneChangeMM(){
+		SceneManager.LoadScene("MainMenu");
 	}
 }
