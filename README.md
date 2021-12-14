@@ -1,5 +1,7 @@
 # 8
 
+<img src="https://github.com/meihqtsume/grafkomkel7/blob/master/Assets/TrueAsset/cg/8.png" width="1000" height="auto" />
+
 ## Roles:
 Repository Grafkom P1 Kelompok 7
 | Nama | NIM | Role |
