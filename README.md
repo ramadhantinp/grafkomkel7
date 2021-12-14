@@ -1,7 +1,7 @@
-# grafkomkel7
-Repository Grafkom P1 Kelompok 7
+# 8
 
 ## Roles:
+Repository Grafkom P1 Kelompok 7
 | Nama | NIM | Role |
 |------|-----|------|
 | Tiara Putri Bellini | G64190044 | Artist |
