@@ -11,7 +11,7 @@ Repository Grafkom P1 Kelompok 7
 | Sekar Daru Mahanani | G64199001 | Designer |
 
 ## Story:
-Setelah terbangun di pagi hari karena mimpi buruk, kamu menjalani kehidupan kuliah seperti biasanya. ‘Seperti biasa’, jika mengabaikan bahwa kamu tertidur di kelas dan baru terbangun setelah matahari lama terbenam, tepatnya di jam 8 malam.
+Sebuah ganme *visual novel* horor yang dibuat sebagai penugasan mata kuliah grafika komputer. Setelah terbangun di pagi hari karena mimpi buruk, kamu menjalani kehidupan kuliah seperti biasanya. ‘Seperti biasa’, jika mengabaikan bahwa kamu tertidur di kelas dan baru terbangun setelah matahari lama terbenam, tepatnya di jam 8 malam. Dibuat dengan Unity.
 
 ## Goals:
 Kembali ke asramamu dengan selamat dari ‘8’.
